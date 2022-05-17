@@ -6,35 +6,55 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <title>FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Scripts -->
+  <script src="script.js"></script>
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <div class="main-container">
+      <section class="image-section">
+        <img src="/images/illustration-box-desktop.svg" alt="illustration-box" class="illustration-box">
+        <img src="/images/illustration-woman-online-desktop.svg" alt="illustration-woman" class="illustration-woman">
+      </section>
+      <section class="faq-section">
+        <h1>FAQ</h1>
+        <div class="accordian-container">
+          <button class="accordian">How many team members can I invite?</button>
+          <div class="panel">
+            <p>You can invite up to 4 team memebers.</p>
+          </div>
+        </div>
+        <div class="accordian-container">
+          <button class="accordian">What is the maximum file upload size?</button>
+          <div class="panel">
+            <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+        </div>
+        <div class="accordian-container">
+          <button class="accordian">How do I reset my password?</button>
+          <div class="panel">
+            <p>You can reset your password by navigating to Settings and clicking Change Password. Follow the onscreen steps to reset your password.</p>
+          </div>
+        </div>
+        <div class="accordian-container">
+          <button class="accordian">Can I cancel my subscription?</button>
+          <div class="panel">
+            <p>You can cancel your subscription at any time. You can cancel your subcription by going to Settings and clicking Cancel Subscription. Follow the onscreen steps to finalize cancellation.</p>
+          </div>
+        </div>
+        <div class="accordian-container">
+          <button class="accordian">Do you provide additional support?</button>
+          <div class="panel">
+            <p>For additonal support start a support request on our support page.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
