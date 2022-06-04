@@ -7,7 +7,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background: rgb(175,103,233);
   background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 90%);
@@ -17,25 +16,21 @@ body {
   height: 100%;
   font-size: 12px;
 }
-
 h1,
 p,
 button {
   font-family: 'Kumbh Sans', sans-serif;
 }
-
 .image-section {
   position: relative;
   margin-top: -8.5rem;
 }
-
 .illustration-box {
   position: absolute;
   bottom: 1.5rem;
   left: 1rem;
   width: calc(100% - 13rem);
 }
-
 main {
   height: 100vh;
   margin: 0 1.5rem;
@@ -43,59 +38,50 @@ main {
   justify-content: center;
   align-items: center;
 }
-
 .main-container{
   background-color: white;
   border-radius: 2rem;
   padding: 1rem;
   margin: 0 auto;
 }
-/* 
-Standard for images */
+
+/* Standard style for images */
 img {
   width: 100%;
   height: auto;
 }
-
 .illustration-woman {
   display: block;
   margin: 0 auto;
   width: calc(100% - 3rem);
   /* box-shadow: 0px 5px 5px -4px red; */
 }
-
 h1 {
   text-align: center;
   margin: 2rem;
   font-size: 2rem;
 }
-
 button {
   background: transparent;
   border: 0;
 }
-
 .accordion-container {
   border-bottom: 1px solid hsl(240, 5%, 91%);
   padding: 1rem;
 }
-
 .panel {
   display: none;
   overflow: hidden;
   margin-top: 1rem;
 }
-
 .accordion-row {
   display: flex;
   justify-content: space-between;
 }
-
 .accordion {
   cursor: pointer;
   transition: 0.4s;
 }
-
 button.active {
   font-weight: 700;
 }
